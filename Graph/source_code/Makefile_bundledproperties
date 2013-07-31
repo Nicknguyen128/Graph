@@ -1,0 +1,5 @@
+CC = g++
+all:
+	$(CC) bundledproperties.cpp -o bundledproperties
+clean: 
+	rm -rf *o bundledproperties

@@ -1,0 +1,4 @@
+CC = g++
+all:
+	g++ Edex.cpp -o Edex
+clean: rm -rf *o Edex

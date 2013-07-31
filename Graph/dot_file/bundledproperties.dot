@@ -1,0 +1,8 @@
+graph G {
+0[label="Prof Nachiket"];
+1[label=Lam];
+2[label=Son];
+0--1 [label=Supervisor];
+0--2 [label=Supervisor];
+1--2 [label=Friend];
+}
