@@ -1,0 +1,5 @@
+CC = g++
+all:
+	g++ custom_properties.cpp -o custom_properties
+clean:
+	rm -rf *o custom_properties
